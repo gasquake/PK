@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Public Knowledge: Index</title>
+    <link rel="stylesheet" href="indexStyle.css">
+</head>
+<body>
+	<img id="logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Public_Knowledge.svg/1280px-Public_Knowledge.svg.png">
+	<h1 id="index_label"><i>Index of Chats</i></h1>
+	<h3 id="chat_disclaimer">Chats' bulletin boards are held in their login prompts and below the chat fields</h3>
+	<hr>
+	<ul id="chat_list">
+		<li>
+			<button class="chat_link_button">World War I</button> 
+			<p class="chat_desc">
+				<small>
+					<span class="info" id="WorldWarIusers">Users: </span>
+					<br>
+					<span class="info">Description: </span>A chat to discuss World War I's beginning, middle, and end.
+				</small>
+			</p>
+		</li>
+		<li>
+			<button class="chat_link_button">World War II</button> 			
+			<p class="chat_desc">
+				<small>
+					<span class="info" id="WorldWarIIusers">Users: </span>
+					<br>
+					<span class="info">Description: </span>A chat to discuss World War II's beginning, middle, and end.
+				</small>
+			</p>
+		</li>
+	</ul>
+    <script src="/socket.io/socket.io.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+	<script src="index_data.js"></script>
+</body>
+</html>

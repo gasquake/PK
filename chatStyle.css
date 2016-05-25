@@ -1,0 +1,91 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box;
+}
+
+body { 
+	font: 13px Helvetica, Arial; 
+	overflow: auto;
+}
+
+figcaption {
+	position: fixed;
+	left: 90%;
+	display: none;
+	font-family: Times;
+	color: red;
+	list-style-type: none;
+	font-size: 1.5em;
+}
+
+#names {
+	width: 10vw;
+	height: 97.5vh;
+	overflow: auto;
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+#names li {
+	color: blue;
+	font-family: Times;
+	font-size: 1em;
+}
+
+#chat_textfield { 
+	display: none;
+	background: #222;
+	padding: 3px; 
+	position: fixed; 
+	bottom: 0; 
+	width: 90vw; 
+	height: 4vh;
+}
+      
+#chat_forminput { 
+	border: 0; 
+	width: 85vw;
+	margin-right: .5%; 
+}
+
+#chat_textfield_send { 
+	width: 9%;
+	height: 4vh;
+	background: #4CDF50; 
+	border: none; 
+	padding: 10px; 
+}
+
+
+#chat_textfield_send:hover, #chat_textfield_send:active {
+	background: #4CBB50;
+}
+
+/*form input*/
+#m {
+	border: 0; 
+	padding: 13px; 
+	width: 90%;
+	height: 4vh;
+	margin-right: .5%; 
+}
+
+#messages { 
+	width: 90%;
+	height: 95vh;
+	overflow: auto;
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+}
+
+#messages li {
+	padding: 5px 10px; 
+}
+
+#messages li:nth-child(odd), #names li:nth-child(odd) {
+	background: #eee;
+}

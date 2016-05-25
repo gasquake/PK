@@ -1,0 +1,55 @@
+body {
+	background: #eee;
+}
+
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+#index_label {
+	text-align: center;
+	font-size: 44px;
+}
+
+#chat_disclaimer {
+	text-align: center;
+	font-size: 1em;
+}
+
+#chat_list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#chat_list li {
+	font-size: 18px;
+}
+
+.chat_link_button {
+	background-color: #008CBA;
+	border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.chat_link:hover, .chat_link:active {
+	font-size: 32px;
+}
+
+.chat_desc {
+	margin-top: 2px;
+	padding-left: 1em;
+}
+
+.info {
+	color: rgb(0, 200, 40);
+}
